@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f4f6fa;
+  color: #222;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .services-list {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+.construction-banner {
+  width: 100%;
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  color: #fff;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 0.7em 0;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(30,60,114,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+} 

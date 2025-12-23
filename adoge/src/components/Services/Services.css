@@ -1,0 +1,144 @@
+section.services {
+  background: var(--color-white);
+  border-radius: 2.5rem;
+  box-shadow: 0 2px 24px 0 rgba(123,120,167,0.07);
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #7E3992;
+  letter-spacing: 1px;
+  margin-bottom: 1.2em;
+  text-align: center;
+  background: linear-gradient(90deg, #7E3992 0%, #72BFBF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.services-underline {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #7E3992 0%, #72BFBF 100%);
+  border-radius: 2px;
+  margin: 0.5em auto 1.5em auto;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.service-card {
+  background: #fff;
+  color: #181828;
+  border-radius: 1.5rem;
+  border: 1.5px solid #e0e0e0;
+  box-shadow: 0 2px 8px 0 rgba(123,120,167,0.06);
+  padding: 2rem 1.5rem;
+  min-width: 220px;
+  max-width: 320px;
+  flex: 1 1 220px;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.service-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(126,57,146,0.10);
+  border-color: #bdbdbd;
+  background: #fff;
+}
+
+.service-card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #7E3992;
+  margin-bottom: 0.5rem;
+}
+
+.service-card p {
+  color: #181828;
+  line-height: 1.6;
+}
+
+.services-intro {
+  font-size: 1.18rem;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto 2.8em auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 40px 0 40px 0;
+  }
+  .services h2 {
+    font-size: 2.5rem;
+    color: #7E3992;
+    margin-bottom: 1.2em;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  .services-list {
+    flex-direction: column;
+    gap: 1.2em;
+    align-items: center;
+  }
+  .service-card {
+    min-width: 0;
+    width: 95vw;
+    max-width: 98vw;
+    padding: 1.2em 0.7em;
+    font-size: 0.98rem;
+    text-align: center;
+  }
+  .service-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.7em;
+  }
+  .service-card p {
+    font-size: 0.97rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .services-list {
+    flex-direction: column;
+    gap: 1.2em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .service-card {
+    background: #fff !important;
+    color: #181828;
+    padding: 1.2em 1em;
+    margin-bottom: 1.2em;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0 2px 8px 0 rgba(123,120,167,0.06);
+    border: 1.5px solid #e0e0e0;
+  }
+  .service-card-title {
+    font-size: 1.08em;
+    margin-bottom: 0.5em;
+  }
+} 
