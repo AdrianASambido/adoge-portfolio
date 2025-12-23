@@ -29,7 +29,7 @@ Landing page profesional para servicios de desarrollo web, UX/UI y soluciones di
 
 ## 👥 Sobre Nosotros
 
-Somos Greta & Adrián, un equipo de desarrollo web y diseño UX/UI con base en Argentina. Este sitio es nuestra carta de presentación digital.
+Soy Adrián, y un equipo de desarrollo web y diseño UX/UI con base en Argentina. Este sitio es nuestra carta de presentación digital.
 
 ---
 
@@ -65,7 +65,6 @@ Somos Greta & Adrián, un equipo de desarrollo web y diseño UX/UI con base en A
 
 ## 🙌 Créditos
 
-- [Greta Piacentini](https://github.com/gretoide)
 - [Adrián Sambido](https://github.com/AdrianASambido)
 
 ---
